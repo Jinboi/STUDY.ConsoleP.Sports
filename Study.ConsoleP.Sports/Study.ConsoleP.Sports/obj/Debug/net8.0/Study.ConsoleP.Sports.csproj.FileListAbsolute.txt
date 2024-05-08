@@ -1,0 +1,17 @@
+C:\Users\Youngwoo\Documents\MEGA\WIP\02-WIP\STUDY.ConsoleP.Sports\Study.ConsoleP.Sports\Study.ConsoleP.Sports\bin\Debug\net8.0\Study.ConsoleP.Sports.exe
+C:\Users\Youngwoo\Documents\MEGA\WIP\02-WIP\STUDY.ConsoleP.Sports\Study.ConsoleP.Sports\Study.ConsoleP.Sports\bin\Debug\net8.0\Study.ConsoleP.Sports.deps.json
+C:\Users\Youngwoo\Documents\MEGA\WIP\02-WIP\STUDY.ConsoleP.Sports\Study.ConsoleP.Sports\Study.ConsoleP.Sports\bin\Debug\net8.0\Study.ConsoleP.Sports.runtimeconfig.json
+C:\Users\Youngwoo\Documents\MEGA\WIP\02-WIP\STUDY.ConsoleP.Sports\Study.ConsoleP.Sports\Study.ConsoleP.Sports\bin\Debug\net8.0\Study.ConsoleP.Sports.dll
+C:\Users\Youngwoo\Documents\MEGA\WIP\02-WIP\STUDY.ConsoleP.Sports\Study.ConsoleP.Sports\Study.ConsoleP.Sports\bin\Debug\net8.0\Study.ConsoleP.Sports.pdb
+C:\Users\Youngwoo\Documents\MEGA\WIP\02-WIP\STUDY.ConsoleP.Sports\Study.ConsoleP.Sports\Study.ConsoleP.Sports\bin\Debug\net8.0\HtmlAgilityPack.dll
+C:\Users\Youngwoo\Documents\MEGA\WIP\02-WIP\STUDY.ConsoleP.Sports\Study.ConsoleP.Sports\Study.ConsoleP.Sports\obj\Debug\net8.0\Study.ConsoleP.Sports.csproj.AssemblyReference.cache
+C:\Users\Youngwoo\Documents\MEGA\WIP\02-WIP\STUDY.ConsoleP.Sports\Study.ConsoleP.Sports\Study.ConsoleP.Sports\obj\Debug\net8.0\Study.ConsoleP.Sports.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Youngwoo\Documents\MEGA\WIP\02-WIP\STUDY.ConsoleP.Sports\Study.ConsoleP.Sports\Study.ConsoleP.Sports\obj\Debug\net8.0\Study.ConsoleP.Sports.AssemblyInfoInputs.cache
+C:\Users\Youngwoo\Documents\MEGA\WIP\02-WIP\STUDY.ConsoleP.Sports\Study.ConsoleP.Sports\Study.ConsoleP.Sports\obj\Debug\net8.0\Study.ConsoleP.Sports.AssemblyInfo.cs
+C:\Users\Youngwoo\Documents\MEGA\WIP\02-WIP\STUDY.ConsoleP.Sports\Study.ConsoleP.Sports\Study.ConsoleP.Sports\obj\Debug\net8.0\Study.ConsoleP.Sports.csproj.CoreCompileInputs.cache
+C:\Users\Youngwoo\Documents\MEGA\WIP\02-WIP\STUDY.ConsoleP.Sports\Study.ConsoleP.Sports\Study.ConsoleP.Sports\obj\Debug\net8.0\Study.ConsoleP.Sports.csproj.CopyComplete
+C:\Users\Youngwoo\Documents\MEGA\WIP\02-WIP\STUDY.ConsoleP.Sports\Study.ConsoleP.Sports\Study.ConsoleP.Sports\obj\Debug\net8.0\Study.ConsoleP.Sports.dll
+C:\Users\Youngwoo\Documents\MEGA\WIP\02-WIP\STUDY.ConsoleP.Sports\Study.ConsoleP.Sports\Study.ConsoleP.Sports\obj\Debug\net8.0\refint\Study.ConsoleP.Sports.dll
+C:\Users\Youngwoo\Documents\MEGA\WIP\02-WIP\STUDY.ConsoleP.Sports\Study.ConsoleP.Sports\Study.ConsoleP.Sports\obj\Debug\net8.0\Study.ConsoleP.Sports.pdb
+C:\Users\Youngwoo\Documents\MEGA\WIP\02-WIP\STUDY.ConsoleP.Sports\Study.ConsoleP.Sports\Study.ConsoleP.Sports\obj\Debug\net8.0\Study.ConsoleP.Sports.genruntimeconfig.cache
+C:\Users\Youngwoo\Documents\MEGA\WIP\02-WIP\STUDY.ConsoleP.Sports\Study.ConsoleP.Sports\Study.ConsoleP.Sports\obj\Debug\net8.0\ref\Study.ConsoleP.Sports.dll

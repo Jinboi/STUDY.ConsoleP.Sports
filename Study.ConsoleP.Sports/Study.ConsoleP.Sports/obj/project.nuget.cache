@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XS71DmRaA2+K9BdCfD65e8Y0pZYi7vRqBA+4cGFWNk1D0hOmeS1+MIP+wnIoy1LShpCzWkX5m9xflwkUhhLZ5w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Youngwoo\\Documents\\MEGA\\WIP\\02-WIP\\STUDY.ConsoleP.Sports\\Study.ConsoleP.Sports\\Study.ConsoleP.Sports\\Study.ConsoleP.Sports.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Youngwoo\\.nuget\\packages\\htmlagilitypack\\1.11.61\\htmlagilitypack.1.11.61.nupkg.sha512"
+  ],
+  "logs": []
+}
