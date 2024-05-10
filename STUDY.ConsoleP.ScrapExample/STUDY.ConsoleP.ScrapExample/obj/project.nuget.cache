@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "GzQsqei8q0a3bG0THLnPAuA5zUk747+JG2+8b9Hzt1cLdSypKg37gTLSzvjckUzQ0GkRtPEJ2p0xI4e4i/9EMQ==",
+  "dgSpecHash": "3DUda0C+7Kjw4wMviu5aMEPnAQ1oelSiNh6RUo4wfA4Xy1QT0C9Jkzuce+u196VBnfnI/9dGXSx9zgSK/KO9ng==",
   "success": true,
-  "projectFilePath": "C:\\MEGA\\WIP\\02-GitWIP\\STUDY.ConsoleP.Sports\\STUDY.ConsoleP.ScrapExample\\STUDY.ConsoleP.ScrapExample\\STUDY.ConsoleP.ScrapExample.csproj",
+  "projectFilePath": "C:\\Users\\Youngwoo\\Documents\\MEGA\\WIP\\02-WIP\\STUDY.ConsoleP.Sports\\STUDY.ConsoleP.ScrapExample\\STUDY.ConsoleP.ScrapExample\\STUDY.ConsoleP.ScrapExample.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\duddn\\.nuget\\packages\\htmlagilitypack\\1.11.61\\htmlagilitypack.1.11.61.nupkg.sha512",
-    "C:\\Users\\duddn\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\Youngwoo\\.nuget\\packages\\htmlagilitypack\\1.11.61\\htmlagilitypack.1.11.61.nupkg.sha512",
+    "C:\\Users\\Youngwoo\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

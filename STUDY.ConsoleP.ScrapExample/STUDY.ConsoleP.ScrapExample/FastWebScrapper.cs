@@ -5,7 +5,6 @@ internal class FastWebScrapper
 {
     public List<User> GetUsers(string url)
     {
-
         var uri = new Uri(url);
         List<User> users = new List<User>();
 

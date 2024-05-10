@@ -7,7 +7,7 @@ namespace STUDY.ConsoleP.ScrapExample
         static void Main(string[] args)
         {
             var scraper = new DynamicWebScrapper();
-            var url = "https://localhost:44392/dynamic";
+            var url = "https://www.basketball-reference.com/boxscores/";
 
             var users = scraper.GetUsers(url);
             Console.WriteLine(users);

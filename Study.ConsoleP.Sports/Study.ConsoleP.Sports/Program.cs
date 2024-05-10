@@ -6,17 +6,10 @@ namespace Study.ConsoleP.Sports
     {
         static void Main(string[] args)
         {
-            HtmlWeb web = new HtmlWeb();
-            HtmlDocument document = web.Load("https://example.com/");
-
-            var title = document.DocumentNode.SelectNodes("//div/h1").First().InnerText;
-            var description = document.DocumentNode.SelectNodes("//div/p").First().InnerText;
-
-            Console.WriteLine(title);
-            Console.WriteLine();
-            Console.WriteLine(description); 
-
-
+            var scraper = new StaticWebScrapper();
+            var url = "https://www.basketball-reference.com/boxscores/";
+            var results = scraper.GetResults(url);
+            Console.WriteLine(results);
         }
     }
 }

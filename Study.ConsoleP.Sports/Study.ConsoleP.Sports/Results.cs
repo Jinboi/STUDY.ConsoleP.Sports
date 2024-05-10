@@ -1,5 +1,5 @@
-﻿namespace STUDY.ConsoleP.ScrapExample;
-public class User
+﻿namespace Study.ConsoleP.Sports;
+internal class Result
 {
     public string Winner { get; set; }
     public string Loser { get; set; }
