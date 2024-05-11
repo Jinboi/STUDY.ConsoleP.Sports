@@ -6,33 +6,42 @@ internal class StaticWebScrapper
 {  
     public List<Result> GetResults(string url)
     {
-        var uri = new Uri(url);
         List<Result> results = new List<Result>();
 
         HtmlWeb web = new HtmlWeb();
-        
+            
         var doc = web.Load(url);
-        var nodes = doc.DocumentNode.SelectNodes("//*[@id=\"content\"]/div[3]/div/table[1]/tbody/tr[1]");
 
-        if (nodes != null)
-    {
-        foreach (var node in nodes)
+        var date = doc.DocumentNode
+            .SelectNodes("//*[@id=\"content\"]/h1")
+            .First()
+            .InnerText
+            .Replace("NBA Games Played on ", "");
+
+        var numberOfGames = doc.DocumentNode
+            .SelectNodes("//*[@id=\"content\"]/div[2]/h2")
+            .First()
+            .InnerText;
+
+        Console.WriteLine($"There were {numberOfGames} on {date}");
+
+        var numberOfScoreTables = doc.DocumentNode.SelectNodes("//*[@id=\"content\"]/div[3]/div");
+
+        if (numberOfScoreTables != null)
         {
-            var result = new Result
+            foreach (HtmlNode table in numberOfScoreTables)
             {
-                Winner = node.SelectSingleNode("td[1]").InnerText,
-                Loser = node.SelectSingleNode("td[2]").InnerText,
-                WinnerScore = int.Parse(node.SelectSingleNode("td[3]").InnerText),
-                LoserScore = int.Parse(node.SelectSingleNode("td[4]").InnerText), // Fixed index here
-            };
+                var result = new Result
+                {
+                    TeamOne = table.SelectSingleNode(".//table[1]/tbody/tr[1]/td[1]/a").InnerText,
+                    TeamOneScore = table.SelectSingleNode(".//table[1]/tbody/tr[1]/td[2]").InnerText,
+                    TeamTwo = table.SelectSingleNode(".//table[1]/tbody/tr[2]/td[1]/a").InnerText,
+                    TeamTwoScore = table.SelectSingleNode(".//table[1]/tbody/tr[2]/td[2]").InnerText
+                };
 
-            results.Add(result);
+                results.Add(result);
+            }
         }
-    }
-    else
-    {
-        Console.WriteLine("No matching nodes found.");
-    }
 
         return results;
     }
