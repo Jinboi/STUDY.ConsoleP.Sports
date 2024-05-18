@@ -1,12 +1,8 @@
-﻿using HtmlAgilityPack;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using System.Net.Mail;
 using System.Net;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Threading;
-using System.Threading.Tasks;
 
 namespace Study.ConsoleP.Sports
 {
@@ -14,7 +10,6 @@ namespace Study.ConsoleP.Sports
     {
         static async Task Main(string[] args)
         {
-
             var builder = new HostBuilder()
               .ConfigureServices((hostContext, services) =>
               {
@@ -55,13 +50,13 @@ namespace Study.ConsoleP.Sports
 
                     smtpClient.Send(message);
                     Console.WriteLine("Email sent successfully!");
+
+                    await Task.Delay(TimeSpan.FromHours(24), stoppingToken); // Change delay to 1 minute
                 }
                 catch (Exception ex)
                 {
                     Console.WriteLine($"Error: {ex.Message}");
                 }
-
-                await Task.Delay(TimeSpan.FromHours(24), stoppingToken);
             }
         }
     }        
